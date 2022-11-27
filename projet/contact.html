@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Ressources/img/sun1.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Ressources/css/style.css">
+    <title>Contactez nous</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="./Ressources/img/sun1.png" alt="Un soleil">
+        </div>
+        <a href="./index.html">
+            <h1>Ma station météo</h1>
+        </a>
+    </header>
+    <main>
+        <form action="./formulaireOk.html" method="get">
+            <fieldset>
+                <legend>Contact</legend>
+                <div>Vous souhaitez une réponse ? Donnez votre courriel !</div>
+                <div>
+                    <label for="email">Courriel</label>
+                    <input type="email" name="email" id="email" placeholder="Adresse courriel" required>
+                    <span class="error">Veuillez saisir une adresse mail valide !</span>
+                </div>
+                <div>
+                    <label for="subject">Sujet</label>
+                    <input type="text" name="subject" id="subject" placeholder="Sujet" required>
+                    <span class="error">Saisissez votre sujet de discussion (5 caractères minimum)</span>
+                </div>
+                <div>
+                    <label for="msg">Votre message</label>
+                    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Votre message" required></textarea>
+                    <span class="error">Vous n'avez rien à dire ? (5 caractères minimum)</span>
+                </div>
+            </fieldset>
+            <fieldset class="bouton">
+                <input type="submit" value="Envoyer">
+                <input type="reset" value="Annuler">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <div>&copy; Moâ</div>
+        <div>&Ccedil;a vous plaît ? C'est Moâ qui l'a fait</div>
+        <div><a href="index.html">Accueil</a></div>
+    </footer>
+
+    <script src="./Ressources/script/scriptForm.js"></script>
+</body>
+
+</html>

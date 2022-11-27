@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Ressources/img/sun1.png" type="image/x-icon">
+    <link rel="stylesheet" href="Ressources/css/style.css">
+    <title>Ma station météo</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <img src="Ressources/img/sun1.png" alt="image soleil">
+        </div>
+        <h1>Ma station météo</h1>
+    </header>
+
+    <main>
+
+        <div>
+            <section>
+                <h2>&Eacute;phéméride</h2>
+                <div>
+                    <div>Nous sommes le <span id="date">&lt;date&gt;</span></div>
+                    <div>Il est <span id="heure">&lt;heure&gt;</span></div>
+                    <div>Le soleil se lève à <span id="sunrise">&lt;heure&gt;</span></div>
+                    <div>Et se couche à <span id="sunset">&lt;heure&gt;</span></div>
+                    <div>Aujourd'hui nous fêtons les <span id="saint">&lt;saints&gt;</span></div>
+                </div>
+            </section>
+
+            <table>
+                <tr>
+                    <th colspan="3"><span id="city">&lt;Nom de la ville&gt;</span></th>
+                </tr>
+                <tr>
+                    <td >Dimanche</td>
+                    <td ><img src="Ressources/img/eclaircies.png" alt="image éclaircies"></td>
+                    <td>Eclaircies</td>
+                </tr>
+                <tr>
+                    <td >Lundi</td>
+                    <td ><img src="Ressources/img/eclaircies.png" alt="image éclaircies"></td>
+                    <td>Eclaircies</td>
+                </tr>
+                <tr>
+                    <td >Mardi</td>
+                    <td ><img src="Ressources/img/eclaircies.png" alt="image éclaircies"></td>
+                    <td>Eclaircies</td>
+                </tr>
+            </table>
+        </div>
+
+        <section>
+            <h2>Températures</h2>
+
+            <figure>
+                <span id="min">9</span>
+                <figcaption>Min</figcaption>
+            </figure>
+
+            <figure>
+                <span id="max">22</span>
+                <figcaption>Max</figcaption>
+            </figure>
+
+            <figure>
+                <span id="moy">15.5</span>
+                <figcaption>Moy</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+
+        <div>
+            &copy; Moâ
+        </div>
+
+        <div>
+            &Ccedil;a vous plait ? C'est Moâ qui l'a fait
+        </div>
+
+        <div>
+            Contacter <a href="contact.html">Moâ</a>
+        </div>
+
+    </footer>
+
+    <script src="./Ressources/script/scriptMeteo.js"></script>
+</body>
+
+</html>
