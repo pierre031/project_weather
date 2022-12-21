@@ -60,8 +60,7 @@ function checkSubject() {
     }
     return isSubjectOk;
 }
-console.log(message);
-console.log(subject);
+
 function checkMessage() {
     let isMessageOk = true;
 
